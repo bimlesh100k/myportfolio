@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container{
+  font-weight: 900;
+  color:lawngreen;
+  background-image: url("../public/Mypic/dekstop.jpg");
+  background-image: url("./dekstop.jpg");
+  background: url("./dekstop.jpg");
+}
