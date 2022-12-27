@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/myportfolio/static/js/main.cdc9e20b.js",
+    "static/media/videoBg.mp4": "/myportfolio/static/media/videoBg.5e99e70107e8538462e6.mp4",
+    "index.html": "/myportfolio/index.html",
+    "main.cdc9e20b.js.map": "/myportfolio/static/js/main.cdc9e20b.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.cdc9e20b.js"
+  ]
+}
