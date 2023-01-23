@@ -10,7 +10,7 @@ import { useState } from "react";
             <div className={openMenu ? "menuIcon active" :"menuIcon"}>
                 <ul className="navbar-list">
                     <li>
-                        <NavLink className="navbar-link"  onClick={()=> setOpenMenu(false)} to="/">Home</NavLink>
+                        <NavLink className="navbar-link"  onClick={()=> setOpenMenu(false)} to="/myportfolio">Home</NavLink>
                     </li>
                     <li>
                         <NavLink className="navbar-link"  onClick={()=> setOpenMenu(false)} to="/about">About</NavLink>
@@ -19,13 +19,13 @@ import { useState } from "react";
                         <NavLink className="navbar-link"  onClick={()=> setOpenMenu(false)} to="/service">Services</NavLink>
                     </li> */}
                     <li>
-                        <NavLink className="navbar-link"  onClick={()=> setOpenMenu(false)} to="/potfolio">Portfolio</NavLink>
+                        <NavLink className="navbar-link"  onClick={()=> setOpenMenu(false)} to="/potfolio">Project</NavLink>
                     </li>
                     <li>
                         <NavLink className="navbar-link"  onClick={()=> setOpenMenu(false)} to="/contact">Contact</NavLink>
                     </li>
                  <li>
-                        <NavLink className="navbar-link"  onClick={()=> setOpenMenu(false)} to="/contant"><button>HIRE ME</button></NavLink>
+                        <NavLink className="navbar-link"  onClick={()=> setOpenMenu(false)} to="/contact"><button>HIRE ME</button></NavLink>
                     </li> 
                 </ul>
                 {/* // nav icon== */}
@@ -70,13 +70,13 @@ import { useState } from "react";
                 height: 35px;
                 width: 90px;
                 border-radius: 2px;
-                background-color: green;
-                border-color:white;
+                background-color:lawngreen;
+                border-color:lawngreen;
                 color:white;
                 font-size:15px;
             &:hover,
             &:active{
-            background-color:lawngreen;
+            background-color:green;
             }
     }
  }
@@ -98,7 +98,7 @@ import { useState } from "react";
             ${'' /* padding-right:1rem; */}
             .mobile-nav-icon {
                 font-size:2.8rem;
-                color: black;
+                color:white;
             }
         }
         
@@ -131,7 +131,7 @@ import { useState } from "react";
             position:absolute;
             top:2%;
             right:14%;
-            color:black;
+            color: white;
             z-index:9999;
         }
         .active .close-outline {
@@ -142,7 +142,7 @@ import { useState } from "react";
             opacity:1;
             transform:translateX(0);
             z-index:999;
-            background: linear-gradient(to right,rgb(2, 117, 54),green,lawngreen );
+            background: linear-gradient(to bottom,rgb(2, 117, 54),green,lawngreen );
             font-size:3rem;
 
         

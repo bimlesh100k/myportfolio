@@ -38,7 +38,7 @@ const App = () => {
         <BrowserRouter>
        <Header />
        <Routes>
-        <Route path="/" element={<Home/>} />
+        <Route path="/myportfolio" element={<Home/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/service" element={<Services/>} />

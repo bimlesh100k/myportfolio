@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
+
 *{
     margin: 0 ;
     padding: border-box;
@@ -69,14 +70,9 @@ p {
     position:relative;
     max-width: 62rem;
     margin:0 auto;
-    ${'' /* margin-left:190px; */}
-     ${'' /* padding-top:-19rem; */}
-    // margin-top:-5rem;
     display:flex;
     flex-direction: column;
     justify-content:center; 
-    // text-align:center;
-    
 }
 .grid{
     display:grid;

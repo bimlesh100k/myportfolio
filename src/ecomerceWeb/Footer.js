@@ -18,7 +18,7 @@ const Footer = ()=> {
             <h4>Links</h4>
             <ul>
                 <li>
-                   <span><FaLongArrowAltRight /></span><NavLink to="/">Home</NavLink>
+                   <span><FaLongArrowAltRight /></span><NavLink to="/myportfolio">Home</NavLink>
                 </li>
                 <li>
                    <span><FaLongArrowAltRight /></span><NavLink to="/about">About</NavLink>
@@ -39,10 +39,10 @@ const Footer = ()=> {
                     <span><FaLongArrowAltRight /></span><NavLink to="/">Web Devlopment</NavLink>
                 </li>
                 <li>
-                    <span><FaLongArrowAltRight /></span><NavLink to="/"> React project</NavLink>
+                    <span><FaLongArrowAltRight /></span><NavLink to="/portfolio"> React project</NavLink>
                 </li>
                 <li>
-                   <span><FaLongArrowAltRight /></span><NavLink to="/">Wordpress</NavLink>
+                   <span><FaLongArrowAltRight /></span><NavLink to="/portfolio">Wordpress</NavLink>
                 </li>
                 <li>
                    <span> <FaLongArrowAltRight /></span><NavLink to="/contact">Contact</NavLink>
@@ -116,7 +116,7 @@ footer{
     }
     li {
     padding-top: 1rem;
-    color:gray;
+    color: #9e9e9e;
 }
 li:hover, li:active {
         color:#ffffffc9;
@@ -150,7 +150,7 @@ ul{
    
 }
 a{
-    color: gray;
+    color:#adadad;
 }
 a:hover, a:active {
         color:#ffffffc9;

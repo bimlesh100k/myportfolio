@@ -6,6 +6,8 @@ import Services from "./Services";
 import About from "./About";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
+import { NavLink } from "react-router-dom";
+// import resume from "../images/resume.pdf";
 
 const Home =()=>{
     return(
@@ -18,8 +20,16 @@ const Home =()=>{
       <h2 className="first-third">I am Asmita</h2>
       <h2 className="first-fourth">I like to craft solid and scalable frontend prodouct with great user experiences.</h2>
       <div className="btn">
+      <NavLink to="/about">
       <Button className="button"> About Me</Button>
+      </NavLink>
+
+      {/* <a href={resume} >
+      <Button className="button">my Resume</Button>
+      </a> */}
+      <NavLink to="/contact">
       <Button className="button"> Contact Me</Button>
+      </NavLink>
       </div>
       </div>
       
@@ -64,6 +74,7 @@ background:#232a34;
 
   .first-line{
     font-size:2.7rem;
+    text-align: center;
   }
   .first-sec{
     font-size:2.5rem;

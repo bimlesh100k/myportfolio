@@ -1,14 +1,21 @@
 import React from "react";
 import styled from "styled-components";
 import { Button } from "../style/Button";
+import biopic1 from "../images/biopic1.jpg"
+import resume from "../images/resume.pdf"
+
+// const PDF_FILE = "http://localhost:3000/about/resume.pdf"
 const About = ()=> {
-    // "./ReactPic/shop.png" 
+//    const downloadFileAtURL= (url) => {
+
+//    }
     return(
         
            <Wrapper>
             <div className="container grid grid-two-column">
                 <div className="bio-image">
-                    <img src="./Mypic/biopic1.jpg" alt="img"/>
+                    {/* <img src="./Mypic/biopic1.jpg" alt="img"/> */}
+                    <img src={biopic1} alt="bio" />
                 </div>
                 {/* bio right side data */}
             <div className="bio-data">
@@ -50,7 +57,10 @@ const About = ()=> {
                     </div>
                 </div>
                 <div className="bio-btn">
+                <a href={resume} download="resume">
                         <Button className="btn">Download CV</Button>
+                        </a>
+                        {/* <Button className="btn" onClick={()=>{downloadFileAtURL(PDF_FILE)}}>Download CV</Button> */}
                     </div>
             </div>
             </div>
