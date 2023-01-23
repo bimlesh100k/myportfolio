@@ -9,7 +9,7 @@ const Header = ()=> {
         <NavLink to="/myportfolio">
         <div className="logo">
             {/* <h2> PORT<span>folio</span></h2> */}
-            <ul>
+            {/* <ul>
                 <li>P</li>
                 <li>O</li>
                 <li>R</li>
@@ -19,7 +19,7 @@ const Header = ()=> {
                 <li>L</li>
                 <li>I</li>
                 <li>O</li>
-            </ul>
+            </ul> */}
          </div>
         </NavLink>
         <Navbar />
