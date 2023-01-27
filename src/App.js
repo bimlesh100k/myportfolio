@@ -1,8 +1,8 @@
 import React from "react";
-import Home from "./ecomerceWeb/Home";
-import Contact from "./ecomerceWeb/Contact";
-import Services from "./ecomerceWeb/Services";
-import About from "./ecomerceWeb/About";
+// import Home from "./ecomerceWeb/Home";
+// import Contact from "./ecomerceWeb/Contact";
+// import Services from "./ecomerceWeb/Services";
+// import About from "./ecomerceWeb/About";
 import Footer from "./ecomerceWeb/Footer";
 import Header from "./ecomerceWeb/Header";
 // import Error from "./Error";
@@ -37,10 +37,10 @@ const App = () => {
         <BrowserRouter>
        <Header />
        <Routes>
-        <Route path="/myportfolio" element={<Home/>} />
+        {/* <Route path="/myportfolio" element={<Home/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/contact" element={<Contact/>} />
-        <Route path="/service" element={<Services/>} />
+        <Route path="/service" element={<Services/>} /> */}
         <Route path="/potfolio" element={<Portfolio/>} />
         {/* <Route path="*" element={<Error/>} /> */}
         </Routes>
