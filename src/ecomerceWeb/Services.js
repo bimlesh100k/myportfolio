@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { FcTabletAndroid, FcRating, FcPortraitMode} from "react-icons/fc";
-import Parallaxeffect from "./Parallaxeffect";
+
 
  const Services =()=>{
     return(
@@ -30,7 +30,7 @@ import Parallaxeffect from "./Parallaxeffect";
             </div>
         </div>
         </Wrapper>
-        <Parallaxeffect />
+    
         </>
     )
  };

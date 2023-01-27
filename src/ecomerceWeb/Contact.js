@@ -53,7 +53,8 @@ input[ type="submit"]{
     &:hover{
         background-color:white;
         color: white;
-    border:1px solid &{({ theme })=> theme.colors.white};  
+    ${'' /* border:1px solid &{({ theme })=> theme.colors.white};   */}
+    border:1px solid white;
     transform:scale(0.9);
     }
 }
